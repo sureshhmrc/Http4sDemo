@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/suresh/hmrc/Http4sDemo/src/main/resources/logback.xml,/Users/suresh/hmrc/Http4sDemo/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/suresh/hmrc/Http4sDemo/src/main/resources/application.conf,/Users/suresh/hmrc/Http4sDemo/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/suresh/hmrc/Http4sDemo/src/main/resources/db/migration/V1__create_Customer.sql,/Users/suresh/hmrc/Http4sDemo/target/scala-2.13/classes/db/migration/V1__create_Customer.sql)[0m

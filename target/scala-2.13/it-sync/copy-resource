@@ -1,0 +1,1 @@
+[[{"${BASE}/src/it/resources/test.conf":["${BASE}/target/scala-2.13/it-classes/test.conf"]},{"${BASE}/target/scala-2.13/it-classes/test.conf":["${BASE}/src/it/resources/test.conf"]}],{"${BASE}/src/it/resources/test.conf":{"file":"file:///Users/suresh/hmrc/Http4sDemo/src/it/resources/test.conf","lastModified":1665481372202}}]

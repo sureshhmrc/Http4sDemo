@@ -1,0 +1,36 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:3:8: not found: object config[0m
+[0m[[0m[31merror[0m] [0m[0mimport config.Config[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:7:25: object client is not a member of package org.http4s.blaze[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.blaze.client.BlazeClientBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:18:8: not found: object config[0m
+[0m[[0m[31merror[0m] [0m[0mimport config.Config[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:22:25: object client is not a member of package org.http4s.blaze[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.blaze.client.BlazeClientBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:33:29: not found: value BlazeClientBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m  private lazy val client = BlazeClientBuilder[IO].resource[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:37:29: not found: value Config[0m
+[0m[[0m[31merror[0m] [0m[0m  private lazy val config = Config.load(configFile).use(config => IO.pure(config)).unsafeRunSync()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:48:5: not found: value HttpServer[0m
+[0m[[0m[31merror[0m] [0m[0m    HttpServer.create(configFile).unsafeRunAsync(resultHandler)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:48:50: missing argument list for method resultHandler in class HttpServerSpec[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `resultHandler _` or `resultHandler(_)` instead of `resultHandler`.[0m
+[0m[[0m[31merror[0m] [0m[0m    HttpServer.create(configFile).unsafeRunAsync(resultHandler)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:65:61: not found: value description[0m
+[0m[[0m[31merror[0m] [0m[0m      root.description.string.getOption(json) shouldBe Some(description)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:66:60: not found: value importance[0m
+[0m[[0m[31merror[0m] [0m[0m      root.importance.string.getOption(json) shouldBe Some(importance)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suresh/hmrc/Http4sDemo/src/it/scala/HttpServerSpec.scala:70:27: not found: value name[0m
+[0m[[0m[31merror[0m] [0m[0m      val id = createTodo(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m
